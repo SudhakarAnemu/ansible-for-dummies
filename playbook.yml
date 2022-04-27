@@ -1,5 +1,6 @@
 - name: "To install Pkgs"
   #hosts: mylabservers
+  hosts: all
   become: true
   tasks: 
       - name: Remove apache httpd
